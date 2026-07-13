@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="get" action="">
+        <p>
+            <label for="nombre">Nombre(s)</label><br>
+            <input type="text" id="nombre" name="nombre" autofocus>
+        </p>
+        <p>
+            <label for="apellidos">Apellidos</label><br>
+            <input type="text" id="apellidos" name="apellidos" required size="40" placeholder="Escriba Apellidos">
+        </p>
+        <p>
+            <label for="edad">Edad</label><br>
+            <input type="text" id="edad" name="edad" required pattern="[0-9]+" placeholder="Tu edad" title="solo numeros">
+        </p>
+        <p>
+            <input type="hidden" name="confidencial" value="12678">
+        </p>
+        <p>
+            <label for="contraseña">Contraseña</label><br>
+            <input type="password" id="contraseña" name="contraseña" required placeholder="Escriba Contraseña">
+        </p>
+        <p>
+            <label for="comentarios">Comentarios</label><br>
+            <textarea id="comentarios" name="comentarios" required rows="8" cols="40">Su comentario</textarea>
+        </p>
+        <p>
+            <label for="pais">País</label><br>
+            <select name="pais" id="pais" required>
+                <option value="">Seleccione</option>
+                <option value="arg">Argentina</option>
+                <option value="mex">México</option>
+                <option value="ven">Venezuela</option>
+            </select>
+        </p>
+        <p>
+            <label for="imagen">Seleccione imagen ...</label><br>
+            <input type="file" name="imagen" id="imagen">
+        </p>
+        <p>
+            <label>Seleccione Sistema Operativo</label><br>
+            <input type="radio" id="so_win" name="so" value="Windows">Windows<br>
+            <input type="radio" id="so_lin" name="so" value="Linux">Linux<br>
+            <input type="radio" id="so_mac" name="so" value="Mac">Mac<br>
+        </p>
+        <p>
+            <label>Seleccione </label><br>
+            <input type="checkbox" id="html" name="html">HTML 5<br>
+            <input type="checkbox" id="css" name="css">CSS<br>
+            <input type="checkbox" id="javascript" name="javascript">Javascript<br>
+        </p>
+        <p>
+            <label for="correo">Correo Electrónico</label><br>
+            <input type="email" id="correo" name="correo" required placeholder="Correo Electrónico">
+        </p>
+        <p>
+            <label for="fecha">Fecha</label><br>
+            <input type="date" id="fecha" name="fecha" required placeholder="Fecha de Nacimiento">
+        </p>
+        <p>
+            <label for="hora">Hora</label><br>
+            <input type="time" id="hora" name="hora" required placeholder="Hora de registro">
+        </p>
+        <p>
+            <label for="numero">Número</label><br>
+            <input type="number" id="numero" name="numero" required placeholder="Solo números" min="1" max="100000" step="5">
+        </p>
+        <p>
+            <label for="rango">Rango Valores</label><br>
+            <input type="range" id="rango" name="rango" required placeholder="Rango de números" min="1" max="1000" step="15">
+        </p>
+        <p>
+            <button type="button">Agregar</button>&nbsp;&nbsp;<button type="button">Modificar</button>&nbsp;&nbsp;<button type="button">Eliminar</button>
+        </p>
+        <p>
+            <input type="submit" value="Aceptar" id="remitir">&nbsp;&nbsp;
+            <input type="reset" value="Limpiar Formulario">
+        </p>
+    </form>
+</body>
+</html>

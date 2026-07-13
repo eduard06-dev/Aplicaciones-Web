@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to right, gray, black);
+    color: white;
+}
+
+div.contenedor {
+    width: 95%;
+    height: 100vh;
+    margin: 5px auto;
+}
+
+div nav {
+    height: 50px;
+    line-height: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+div nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: tomato;
+}
+
+div section {
+    padding: 30px;
+}
+
+div section p {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: yellow;
+}
+
+h1, h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: blue;
+}

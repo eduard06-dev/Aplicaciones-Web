@@ -1,0 +1,105 @@
+<html lang="es">
+<body>
+    /******
+    A continuación vamos a trabajar con parrafos de información
+    tag <p>Parrago</p>, en este caso el párrafo no acepta formato por default
+    habrá que implementarlo más adelante
+****/
+<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut explicabo excepturi cum consequatur similique, nostrum praesentium sit corrupti, ipsam perspiciatis vel reiciendis mollitia officia nisi temporibus ut, corporis maxime dignissimos?</P>  <!-- escriba lorem y presione la tecla tabulador o enter, segenera un parrafo de 
+              de información -->
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi, minus accusantium blanditiis debitis facilis asperiores dolores vel sed explicabo magnam optio totam animi praesentium ducimus ut! Culpa maxime praesentium rem.
+Cupiditate totam nostrum modi alias impedit saepe recusandae veritatis a quo rem quis consectetur blanditiis tenetur perferendis quas omnis aliquid, repudiandae quidem autem asperiores, illum eum minima ea magnam. Iste.
+Quam laudantium, in corrupti nemo perspiciatis autem repellendus ipsa neque impedit fugit, voluptatibus quos accusamus recusandae similique vel deleniti iure omnis obcaecati sapiente quasi. Debitis repellat magni enim. Quia, ratione!   </p> <!-- nuevo parráfo pero de más líneas, escriba lorem*3 y tabulador o enter -->
+<p>Desarrollo de aplicaciones web</p> <!-- parrafo más corto -->
+<p>Desarrollo</p> <!-- Parrago de una sola palabra -->
+
+/***** Cual es la idea de escribir 4 parrafos, es muy sencillo, es una etiqueta en bloque,
+     es decir ocupa todo el ancho de la pantalla y la altura depende del contenido, no admite formato
+     de tal forma que no hay tabuladores, solo un espacio, saltos de línea, es decir todo va de forma consecutiva
+ *****/
+ CODIFICAR SOBRE LA MISMA PÁGINA INICIADA Y VER RESULTADO 
+  
+  <!-- Parráfos de informavión-->
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, inventore? In, officiis sit labore, possimus, quas ratione eaque vero assumenda nemo ipsam iste ipsum animi? Doloremque exercitationem cupiditate magni molestiae.
+     </p>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt facilis illum corrupti similique, quae dolores odit laborum veritatis assumenda autem mollitia eos consectetur sequi eius laudantium provident voluptas, omnis iure?
+     Aliquam quisquam sint voluptatibus consectetur. Ipsam quaerat eligendi harum nobis quibusdam beatae numquam, culpa tempore nam rem earum tenetur, ut veritatis doloribus consectetur! Minima harum a quaerat, dolorem explicabo maxime.
+     Ad deserunt odio nemo exercitationem eligendi sed, quae est quos magnam delectus placeat error in voluptatem sint! Eum magni iste aperiam repellendus deleniti, corrupti, nobis quod soluta consequatur possimus voluptates.
+    </p>
+    <p>Desarrollo de aplicaciones web</p>
+    <p>Desarrollo</p>
+
+/**** A continuación veremos como implementar un tabulador, más de un espacio, salto de línea,
+     tambien veremos como resaltar, enfatizar, tachar, pequeño, remarcar, superior, inferior, 
+     texto en un parrafo de información.  *****/
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     // código para un tabulador
+     &nbsp;&nbsp;       // dos espacios
+     <br>               //etiqueta para salto de línea
+     <b>Texto</b>  ó <strong>Texto</strong>     //resaltar texto
+     <i>Texto</i> ó <em>Texto</em>              //enfatizar texto
+     <del>Texto</del>               //tachar texto
+     <small>Texo</small>            // texto en menor tamaño
+     <mark>Texto</mark>             //marcar texto
+     <sup>Texto</sup>               // texto elevado, superíndice
+     <sub>Texto</sub>               // texto reducido, subíndice
+     
+     /*****     Utilizar el parrafo 2 para su implementación  ****/
+
+     CODIFICAR CÓDIGO EN LA MISMA PÁGINA, VER RESULTADO.
+
+     <!-- Parrafo con formato inducido -->
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<mark><b>Lorem</mark> ipsum dolor sit amet consectetur adipisicing elit.</b> <br><del>Nesciunt facilis illum corrupti similique, quae dolores odit laborum veritatis assumenda autem mollitia</del> eos consectetur sequi eius laudantium provident voluptas, omnis iure?
+     <sub>Aliquam quisquam sint</sub> voluptatibus consectetur. <br><br>&nbsp;&nbsp;<strong><em>Ipsam quaerat eligendi harum nobis quibusdam beatae numquam, culpa tempore nam rem earum tenetur, ut veritatis doloribus consectetur! Minima harum a quaerat, dolorem explicabo maxime.</em></strong>
+     Ad deserunt odio nemo <sup>exercitationem</sup> eligendi sed, quae est quos magnam delectus placeat error in voluptatem sint! Eum magni iste aperiam repellendus deleniti, corrupti, <small>nobis quod soluta consequatur possimus voluptates.</small>
+    </p>
+    <pre>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi placeat odit sit, ipsa quas nobis! Aperiam fugiat rerum nulla nostrum quae dolorum in assumenda obcaecati! Doloremque eos commodi suscipit molestias.
+    </pre>
+    <!-- Enlaces, links, hipervinculos, etiqueta en linea -->
+    <a href="acerca.html">Acerca</a>&nbsp;
+    <a href="contacto.html">Contacto</a>&nbsp;
+    <a href="https://www.google.com">Google</a>&nbsp;
+    <a href="https://www.w3schools.com">W3Schols</a>
+    <hr>
+    <!-- Etiqueta <img src=""> para imagenes, etiqueta en linea-->
+    <img src="img/img 2.jpg" width="300px" >
+    <img src="img/img 4.jpg" width="300px" height="300px">
+
+    <!-- LISTA DE ELEMENTOS, ETIQUETA EN BLOQUE -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!-- lista númerica   -->
+    <ol>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ol>
+
+    <!-- Etiqueta table, elemento en bloque -->
+    <table border="1" cellspacing>
+        <tr>
+            <th>Nombre</th><th>Correo</th>
+        </tr>
+        <tr>
+            <td>Estrella</td><td>estrella@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Ximena</td><td>ximena@gmail.com</td>
+        </tr>
+    </table>
+    <!-- Etiqueta div -->
+    <div>
+        <h1>Contenido del bloque</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur quod accusantium nam ipsa. Debitis accusantium sint consectetur saepe deserunt iure, nobis rem, aliquam architecto ad, nostrum ram! Tempora, ut nulla.</p>
+    </div>
+    <!-- Etiqueta <hr>, crea una linea horizontal, elemento en bloque, 
+         se puede limitar el tamaño horizontalmente con el atributo width.
+    -->
+    <hr width="50%">
+
+</body>
+</html>

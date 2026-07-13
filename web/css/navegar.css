@@ -1,0 +1,19 @@
+
+/* Ahora se quiere que la barra de menu no cambie pues es la misma en todas las páginas, 
+y el efecto solo aplique en el contenido principal de cada página  */
+
+/* ************************************************************** */
+
+@view-transition{
+    navigation: auto;   /* podemos notar que al navegar entre páginas hay una pequeña transición */
+}
+
+::view-transition-group(contenido-principal){      /* Aqui definimos que se vera afectada toda la página */
+    animation-duration: 1s ;        /* hay una transición entre páginas de 1 segundos de retsardo */
+}
+
+section {
+    /* definimos el nombre de la transión con nombre contenido-principal y este a su vez hace referencia
+        a una etiqueta <section> que representa el contenidio principal de cada una de las páginas y es la que va a cambiar */
+    view-transition-name: contenido-principal;
+}
